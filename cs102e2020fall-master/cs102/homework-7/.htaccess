@@ -1,0 +1,6 @@
+Options +ExecCGI
+AddHandler cgi-script .py
+AddHandler cgi-script .cgi
+<FilesMatch ".c$">
+deny from all
+</FilesMatch>
